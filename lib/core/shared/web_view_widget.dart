@@ -11,9 +11,7 @@ class WebViewWidget extends StatelessWidget {
       body: SafeArea(
         child: InAppWebView(
           initialUrlRequest: URLRequest(
-            url: Uri.parse(
-              url,
-            ),
+            url: WebUri(url),
           ),
         ),
       ),

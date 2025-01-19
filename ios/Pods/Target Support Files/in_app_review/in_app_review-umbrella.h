@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "InAppReviewPlugin.h"
 
 FOUNDATION_EXPORT double in_app_reviewVersionNumber;
 FOUNDATION_EXPORT const unsigned char in_app_reviewVersionString[];
